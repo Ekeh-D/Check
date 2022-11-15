@@ -6,18 +6,19 @@
 }
 body{
     padding: 20px 20%;
+    height: 100vh;
 }
 .top{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .top2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .top3{
     display: flex;
@@ -29,7 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 footer{
     display: flex;
@@ -44,12 +45,14 @@ button{
     border-radius: 22px;
     cursor: pointer;
     border: 0 solid #3c8fc7;
-    transition: 0.5s;
 }
 button:hover{
-    transform: translateY(-15px);
     color: #a52a2a;
     /* background: linear-gradient(#3c8fc7,#fff,#3c8fc7); */
     background: transparent;
     border: 1px solid #a52a2a;
+}
+#evil-button {
+    position: absolute;
+    white-space: nowrap;
 }
