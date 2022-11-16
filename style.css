@@ -45,6 +45,7 @@ button{
     border-radius: 22px;
     cursor: pointer;
     border: 0 solid #3c8fc7;
+    overflow: hidden;
 }
 button:hover{
     color: #a52a2a;
@@ -55,4 +56,11 @@ button:hover{
 #evil-button {
     position: absolute;
     white-space: nowrap;
+}
+
+@media screen and (max-width:420px){
+    body{
+        padding: 20px 50%;
+        height: 100vh;
+    }
 }
